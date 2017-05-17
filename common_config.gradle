@@ -1,0 +1,19 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+project.ext {
+    compileSdkVersion = 23
+    buildToolsVersion = "23.0.2"
+    minSdkVersion = 15
+    targetSdkVersion = 23
+    versionName = "1.0.0"
+    versionCode = 1
+    applicationId = "com.elk.tourist"
+
+    isDebug = false;
+    isLib = false;
+    isSettingDebug = false;
+    isLoginDebug = false;
+
+    //混淆
+//    minifyEnable = true
+//    shrinkResEnable = minifyEnable
+}

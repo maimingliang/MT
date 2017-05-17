@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="milu_color_normal">#ff4261</color>
+    <color name="milu_color_pressed">#30e2bf</color>
+    <color name="dateSel">#ff6a34</color>
+    <color name="bg_ecf0f1">#ecf0f1</color>
+    <color name="c4b4b4b">#4B4B4B</color>
+    <!--文字颜色-->
+    <color name="main_text">#333333</color>
+    <color name="minor_text">#555555</color>
+    <color name="hint_text">#999999</color>
+    <color name="like_text">#8b8b8b</color>
+    <color name="green_15d7bd">#15d7bd</color>
+    <!--文字展开色值-->
+    <color name="nick">#517fae</color>
+    <color name="item_bottom_text">#8e8e8e</color>
+    <color name="item_showmore_click">#c6c6c6</color>
+    <color name="line_bg">#e5e5e5</color>
+
+    <!--popupwindow-->
+    <color name="normal">#fff</color>
+    <color name="press">#ff0</color>
+    <color name="focue">#666</color>
+    <!--筛选框-->
+    <!--赏钱-->
+    <color name="money_yellow">#ffc948</color>
+    <color name="money_red">#FF4261</color>
+    <color name="money_green">#05d5ba</color>
+
+    <color name="selected_pressed">#cccccc</color>
+    <color name="selected_normal">#f7f7f9</color>
+    <!--dropdownmenu color start-->
+    <color name="white">#ffffff</color>
+    <color name="gray">#cccccc</color>
+    <color name="bg_gray">#edf0f1</color>
+
+    <color name="drop_down_selected">#7B1FA2</color>
+    <color name="drop_down_unselected">#111111</color>
+
+    <color name="mask_color">#88888888</color>
+    <color name="check_bg">#f2f2f2</color>
+    <color name="un_press_color">#9C27B0</color>
+    <!--dropdownmenu color end-->
+
+    <!--开源筛选框start-->
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent">#8f000000</color>
+    <color name="orange">#f27242</color>
+    <color name="youyuorange">#ffa828</color>
+
+    <!--升级按钮点下色值-->
+
+    <color name="btn_bg_1">#88dfdcdc</color>
+
+    <!--line bg-->
+    <color name="bg_line_1">#d6dfdf</color>
+
+    <!-- background -->
+    <color name="bg">#FFF5F5F5</color>
+    <color name="bg_black_1">#f6f6f6</color>
+    <color name="bg_black_2">#d6d7df</color>
+    <color name="bg_black_3">#f2f3ee</color>
+    <color name="bg_pressed">#FFF2F2F2</color>
+
+    <!-- material design black font color -->
+    <color name="font_black_0">#333333</color>
+    <color name="font_black_1">#424242</color>
+    <color name="font_black_2">#8d8d8d</color>
+    <color name="font_black_3">#666666</color>
+    <color name="font_black_4">#5b5b5b</color>
+    <color name="font_black_5">#a3a3a3</color>
+    <color name="font_black_6">#efefef</color>
+    <color name="font_black_7">#ff5d00</color>
+    <color name="font_black_8">#848484</color>
+    <color name="font_black_9">#ff9000</color>
+    <color name="font_black_10">#333333</color>
+    <color name="font_black_11">#777777</color>
+    <color name="font_black_12">#999999</color>
+
+
+    <color name="font_white_0">#fafafa</color>
+
+    <color name="font_price_orange">#ff6a34</color>
+    <!-- divider -->
+    <color name="divider_1">#e2e2e2</color>
+    <color name="divider_2">#e6e6e6</color>
+    <!--开源筛选框end-->
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <!--日历颜色-->
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="font_red_1">#fe2347</color>
+    <color name="font_orange_1">#ff5d00</color>
+    <color name="divider_3">#f6f6f6</color>
+    <color name="ba_item_1">#55666666</color>
+    <color name="font_orange_2">#ff5800</color>
+    <color name="bg_ll_gay">#ededed</color>
+    <color name="font_orange_3">#ff9102</color>
+    <color name="bg_tra_blank_0">#60000000</color>
+    <color name="ffb848">#ffb848</color>
+    <color name="c555555">#555555</color>
+    <color name="c05d5ba">#05d5ba</color>
+    <color name="c999999">#999999</color>
+    <!--日历颜色end-->
+
+    <!--转场动画-->
+    <color name="showmethod_start_color">#FFFFFF</color>
+    <color name="showmethod_end_color">#C8C8C8</color>
+    <color name="c777777">#777777</color>
+    <color name="c3c3c3">#c3c3c3</color>
+    <color name="cff5a5f">#ff5a5f</color>
+    <color name="milu_orage_normal">#ffb849</color>
+    <color name="milu_orage_pressed">#f4b93c</color>
+
+    <color name="default_background_color">@android:color/transparent</color>
+    <color name="default_progress_color">#33b5e5</color>
+    <color name="default_stroke_color">#33b5e5</color>
+    <color name="default_text_color">#333333</color>
+    <color name="color_232323">#232323</color>
+    <color name="color_8290AF">#8290AF</color>
+
+    <color name="default_clickable_color">#cccccc</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="line_bg2">#eceff1</color>
+    <color name="c4c4c4">#c4c4c4</color>
+    <color name="light_gray">#808080</color>
+
+</resources>

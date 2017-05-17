@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:fitsSystemWindows="true"
+              android:clipToPadding="true"
+              android:background="@color/bg_gray"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        style="@style/headerStyle"
+        >
+        <ImageView
+            android:id="@+id/img_title_back"
+            style="@style/title_iv_back"
+            />
+
+        <TextView
+            style="@style/tabTitleTvStyle"
+            android:text="设置"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/mine_setting_ll_modify_paw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:drawablePadding="@dimen/dp_13"
+            android:drawableLeft="@drawable/change_password"
+            android:textColor="@color/font_black_0"
+            android:text="@string/modify_password"/>
+
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/join_guide_button_go_to"/>
+
+    </RelativeLayout>
+
+    <View
+        style="@style/bg_line"/>
+
+    <RelativeLayout
+        android:id="@+id/mine_setting_ll_clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:drawablePadding="12dp"
+            android:drawableLeft="@drawable/clear_cache"
+            android:textColor="@color/font_black_0"
+            android:text="@string/clear_cache"/>
+        <TextView
+            android:layout_centerVertical="true"
+
+            android:layout_alignParentRight="true"
+
+            android:id="@+id/mine_setting_tv_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:textSize="14sp"
+            android:textColor="@color/font_black_0"
+            android:text="--K"/>
+    </RelativeLayout>
+    <View
+        style="@style/bg_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_feed_back"
+        android:layout_marginTop="@dimen/dp_10"
+         android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:drawablePadding="@dimen/dp_13"
+            android:drawableLeft="@drawable/feedback"
+            android:textColor="@color/font_black_0"
+            android:text="@string/user_feekback"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/join_guide_button_go_to"/>
+
+    </RelativeLayout>
+    <View
+        style="@style/bg_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_help_center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:drawablePadding="@dimen/dp_13"
+            android:drawableLeft="@drawable/help"
+            android:textColor="@color/font_black_0"
+            android:text="@string/help_center"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/join_guide_button_go_to"/>
+
+    </RelativeLayout>
+    <View
+        style="@style/bg_line"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:drawablePadding="@dimen/dp_10"
+            android:drawableLeft="@drawable/about_us"
+            android:textColor="@color/font_black_0"
+            android:text="@string/about_us"/>
+
+        <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/join_guide_button_go_to"/>
+
+    </RelativeLayout>
+    <View
+        style="@style/bg_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_user_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:drawablePadding="@dimen/dp_13"
+            android:drawableLeft="@drawable/user_agreement"
+            android:textColor="@color/font_black_0"
+            android:text="@string/user_agreement"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/join_guide_button_go_to"/>
+
+    </RelativeLayout>
+
+    <View
+        style="@style/bg_line"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_mine_new_version"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/mine_aboutus_tv_version"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:drawablePadding="@dimen/dp_10"
+            android:drawableLeft="@drawable/new_version"
+            android:textColor="@color/font_black_0"
+            android:text="@string/new_version"/>
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/mine_aboutus_iv_has_update"
+            android:layout_toRightOf="@+id/mine_aboutus_tv_version"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/new_bg_box"/>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/join_guide_button_go_to"/>
+
+    </RelativeLayout>
+    <View
+        style="@style/bg_line"/>
+
+    <Button
+        android:id="@+id/mine_setting_btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/font_white_0"
+        android:text="退出登录"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/selector_login"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
