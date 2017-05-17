@@ -101,6 +101,7 @@ public class SetUpActivity extends BaseActivity<SetUpPresenter> implements SetUp
     }
 
 
+
     @Override
     protected int initLayout() {
         return R.layout.activity_mine_setting;

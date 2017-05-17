@@ -1,12 +1,17 @@
 package com.elk.tourist;
 
+import android.app.Application;
 import android.content.Context;
 import android.support.multidex.MultiDex;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.elk.base.BaseApplication;
+import com.elk.base.IModule;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 import timber.log.Timber;
 
@@ -31,6 +36,7 @@ public class WEApplication extends BaseApplication {
 
 
 
+
         if (BuildConfig.LOG_DEBUG) {//Timber日志打印
             Timber.plant(new Timber.DebugTree());
             ARouter.openLog();     // 打印日志
@@ -39,11 +45,40 @@ public class WEApplication extends BaseApplication {
 
 
 
+
         installLeakCanary();//leakCanary内存泄露检查
 
         ARouter.init(mApplication); // 尽可能早，推荐在Application中初始化
 
 
+        //初始化module
+
+        long l = System.currentTimeMillis();
+
+        for(String name : ModuleConfig.moduleList){
+            try {
+                Class<?> clazz = Class.forName(name);
+                Object instance = clazz.newInstance();
+
+                if(clazz.newInstance() instanceof IModule){
+                    Method method = clazz.getDeclaredMethod("onLoad", Application.class);
+                    method.invoke(instance,this);
+                }
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            } catch (NoSuchMethodException e) {
+                e.printStackTrace();
+            } catch (InvocationTargetException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+        Timber.tag(TAG).d("----- time = " +(System.currentTimeMillis() - l));
     }
 
 
