@@ -6,12 +6,12 @@ project.ext {
     targetSdkVersion = 23
     versionName = "1.0.0"
     versionCode = 1
-    applicationId = "com.elk.tourist"
+    applicationId = "com.elk.tourist3"
 
     isDebug = false;
     isLib = false;
     isSettingDebug = false;
-    isLoginDebug = false;
+    isLoginDebug = true;
 
     //混淆
 //    minifyEnable = true

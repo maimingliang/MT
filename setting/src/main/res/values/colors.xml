@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#edebeb</color>
+    <color name="colorAccent">#07d5ba</color>
 
     <color name="milu_color_normal">#ff4261</color>
     <color name="milu_color_pressed">#30e2bf</color>
