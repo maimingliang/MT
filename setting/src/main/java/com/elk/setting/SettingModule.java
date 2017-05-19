@@ -20,6 +20,7 @@ import timber.log.Timber;
 
 
 public class SettingModule implements IModule {
+
     @Override
     public void onLoad(Application app) {
         Timber.tag("SettingModule").d("-------> SettingModule ");
